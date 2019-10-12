@@ -21,7 +21,7 @@ public class MyRestController {
         return this.tagRepository.findAll();
     }
 
-    @PostMapping("/order")
+    @PostMapping("/post")
     public Post createPost() {
         return this.postService.create();
     }
